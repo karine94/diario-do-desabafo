@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Escrita à mão ultra legível e confortável */
+  .font-handwriting {
+    font-family: 'Patrick Hand', 'Marck Script', cursive, sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
