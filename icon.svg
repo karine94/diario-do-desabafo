@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Fundo Pergaminho -->
+  <rect width="512" height="512" rx="110" fill="#FDFBF7"/>
+  <rect x="18" y="18" width="476" height="476" rx="92" fill="none" stroke="#D8CEA8" stroke-width="10"/>
+  
+  <!-- Sombra do Livro -->
+  <rect x="120" y="110" width="280" height="320" rx="20" fill="#4A3B32" opacity="0.15"/>
+  
+  <!-- Capa do Diário (Vinho Vitoriano) -->
+  <rect x="110" y="100" width="280" height="320" rx="18" fill="#7A2E39"/>
+  <rect x="122" y="112" width="256" height="296" rx="12" fill="none" stroke="#D8CEA8" stroke-width="4" stroke-dasharray="8 4"/>
+  
+  <!-- Lombada do Livro -->
+  <path d="M110 100 C 120 100, 130 105, 130 118 L 130 402 C 130 415, 120 420, 110 420 Z" fill="#5E222B"/>
+  
+  <!-- Fecho Dourado Secreto -->
+  <rect x="370" y="236" width="30" height="48" rx="6" fill="#D8CEA8"/>
+  <circle cx="385" cy="260" r="6" fill="#7A2E39"/>
+  
+  <!-- Ilustração Central: Tulipa Vitoriana -->
+  <g fill="#FDFBF7" stroke="#FDFBF7" opacity="0.95">
+    <!-- Haste da Tulipa -->
+    <path d="M250 255 L250 285" stroke-width="5" stroke-linecap="round" fill="none"/>
+    
+    <!-- Folhas da Tulipa -->
+    <path d="M250 280 C235 275, 225 260, 220 245 C230 255, 240 268, 250 270 Z" stroke-width="2"/>
+    <path d="M250 280 C265 275, 275 260, 280 245 C270 255, 260 268, 250 270 Z" stroke-width="2"/>
+    
+    <!-- Pétala Central da Tulipa -->
+    <path d="M250 210 C240 220, 242 245, 250 255 C258 245, 260 220, 250 210 Z" stroke-width="2"/>
+    
+    <!-- Pétala Esquerda -->
+    <path d="M248 212 C230 218, 225 240, 242 254 C236 240, 238 222, 248 212 Z" stroke-width="2"/>
+    
+    <!-- Pétala Direita -->
+    <path d="M252 212 C270 218, 275 240, 258 254 C264 240, 262 222, 252 212 Z" stroke-width="2"/>
+  </g>
+</svg>
